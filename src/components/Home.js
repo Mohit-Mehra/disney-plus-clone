@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import ImgSlider from './ImgSlider'
+import Movies from './Movies'
 import Viewers from './Viewers'
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
     <Container>
       <ImgSlider />
 	  <Viewers />
+	  <Movies />
     </Container>
   )
 }
@@ -28,7 +30,7 @@ const Container = styled.main`
 		right: 0;
 		bottom: 0;
 		z-index: -1;
-	}
+	};
 `
 
 
