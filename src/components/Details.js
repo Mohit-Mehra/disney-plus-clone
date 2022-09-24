@@ -43,6 +43,7 @@ const Container = styled.div`
     min-height: calc(100vh-70px;);
     padding: 0 calc(3.5vw+5px);
     position: relative;
+    padding-left:50px;
 `
 const Background = styled.div`
     position: fixed;
@@ -131,6 +132,7 @@ const Description = styled.div`
     font-size: 20px;
     margin-top: 16px;
     color: rgb(249,249,249);
+    max-width:500px;
 `
 
 
